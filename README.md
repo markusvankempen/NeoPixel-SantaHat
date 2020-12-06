@@ -20,6 +20,6 @@ Of course we will need some soldering iron and tools.
 
 You can find these parts on the internet at various place like AliExpress or Amazon etc.
 
-![](RackMultipart20201206-4-hso2s5_html_1a7d31d2d12d35da.gif)
+![](/images/PXL_20201205_210550338.jpg)
 
 I started building the prototype on a bread board 1st and than fitted it into the had
