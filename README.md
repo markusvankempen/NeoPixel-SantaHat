@@ -20,12 +20,17 @@ Here are the materials is used.
 - [1 Diffused NeoPixel 8mm](https://www.amazon.ca/EDGELEC-Tri-Color-Multicolor-Resistors-Included/dp/B077X95LRZ/) (optional)
 - [Some heat shrink](https://www.amazon.ca/Yosawa-Pieces-Heat-Shrink-Tubing/dp/B07SPRNMD5)
 - [Christmas Hat](https://www.amazon.ca/Confortable-Velvet-Christmas-Favors-Adults/dp/B07G44K67L)
+- [A little on off switch[(
 - [You may also want to add Capacitor , Diode and resistor](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/64467/versions/2/previews/html/NeoPixelExample_Basic.html) to be proper
 
-Of course we will need some soldering iron and tools etc.
+Of course we will need some soldering iron , cables and tape  etc.
 
 You can find these parts on the internet at various place like AliExpress or Amazon etc.
 
 ![](/images/PXL_20201205_210550338.jpg)
 
-I started building the prototype on a bread board 1st and than fit it into the hat.
+I started building the prototype on a bread board 1st and than fit it into the hat. 
+
+
+
+Make sure all exposed cable and open contacts are covered in tape or heat schrink. 
