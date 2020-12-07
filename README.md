@@ -31,6 +31,16 @@ You can find these parts on the internet at various place like AliExpress or Ama
 
 I started building the prototype on a bread board 1st and than fit it into the hat. 
 
+![](/images/PXL_20201206_200006135.jpg)
+
+Once you got this working you will need to solder the cables onto the Nano. My little boster had only 3 ports Vin,Ground,Vout. I Soldered 2 male cable for the Battery (Vin,Ground) and 2 cables as bridge (Ground,Vout) to the Gnd Vin at the Nano. The Nano has one more Gnd and 5V Port which i use for the Single NeoPixel which goes into the Bommel. 
+
+![Soldering images](/i1mages/PXL_20201207_155825910.jpg)
+
+![](/images/PXL_20201207_155825910.jpg)
+
+Important! Make sure all exposed cable ends and open contacts/ports are covered in tape or heat schrink. 
+
+![](/images/PXL_20201207_163403951.jpg)
 
 
-Make sure all exposed cable and open contacts are covered in tape or heat schrink. 
