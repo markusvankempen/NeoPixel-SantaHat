@@ -4,7 +4,7 @@ How to use Arduino (Nano etc) and NeoPixels to build a colorful blinking SantaHa
 
 I wanted to build a nice Santa hat that uses colorful NeoPixels for the Christmas days.
 
-[![Demo](/images/santademo.png)](/images/PXL_20201206_162019472.mp4)[Demo]
+[![Demo](/images/santademo.png =200)](/images/PXL_20201206_162019472.mp4)[Demo]
 
 Here are the materials is used.
 
