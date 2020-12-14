@@ -41,6 +41,8 @@ Once you got this working you will need to solder the cables onto the Nano. My l
 
 Important! Make sure all exposed cable ends and open contacts/ports are covered in tape or heat schrink. 
 
+To put the single NeoPixel in the Pom-Pom - I wired the cables inside the hat and use the soldering iron to "burn" a hole into the Pom-Pom to place the NeoPixel inside.
+
 ![SantaHatAssembled](/images/SantaHatAssembled.jpg)
 
 The Finished product
