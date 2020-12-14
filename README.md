@@ -41,3 +41,7 @@ Once you got this working you will need to solder the cables onto the Nano. My l
 
 Important! Make sure all exposed cable ends and open contacts/ports are covered in tape or heat schrink. 
 
+![SantaHatAssembled](/images/SantaHatAssembled.jpg)
+Finished product
+
+![Finished](/images/SantaHatA.jpg)
