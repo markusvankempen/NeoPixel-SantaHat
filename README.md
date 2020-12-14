@@ -1,6 +1,6 @@
 # Blinking Santa Hat 
 
-How to use Arduino (Nano etc) and NeoPixels to build a colorful blinking SantaHat
+How to use Arduino (Nano etc) and NeoPixels to build a colorful blinking SantaHat with an extra NeoPixel in the Pom-Pom aka Bommel ;)
 
 I wanted to build a nice Santa hat that uses colorful NeoPixels for the Christmas days.
 
@@ -23,7 +23,7 @@ Here are the materials is used.
 - [A little on off switch] optional
 - [You may also want to add Capacitor , Diode and resistor](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/64467/versions/2/previews/html/NeoPixelExample_Basic.html) to be proper
 
-Of course we will need some soldering iron , cables and tape  etc.
+Of course we will need some soldering iron, cables and tape  etc.
 
 You can find these parts on the internet at various place like AliExpress or Amazon etc.
 
