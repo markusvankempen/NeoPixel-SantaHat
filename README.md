@@ -20,7 +20,7 @@ Here are the materials is used.
 - [1 Diffused NeoPixel 8mm](https://www.amazon.ca/EDGELEC-Tri-Color-Multicolor-Resistors-Included/dp/B077X95LRZ/) (optional)
 - [Some heat shrink](https://www.amazon.ca/Yosawa-Pieces-Heat-Shrink-Tubing/dp/B07SPRNMD5)
 - [Christmas Hat](https://www.amazon.ca/Confortable-Velvet-Christmas-Favors-Adults/dp/B07G44K67L)
-- [A little on off switch[(
+- [A little on off switch] optional
 - [You may also want to add Capacitor , Diode and resistor](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/64467/versions/2/previews/html/NeoPixelExample_Basic.html) to be proper
 
 Of course we will need some soldering iron , cables and tape  etc.
@@ -35,7 +35,10 @@ I started building the prototype on a bread board 1st and than fit it into the h
 
 Once you got this working you will need to solder the cables onto the Nano. My little boster had only 3 ports Vin,Ground,Vout. I Soldered 2 male cable for the Battery (Vin,Ground) and 2 cables as bridge (Ground,Vout) to the Gnd Vin at the Nano. The Nano has one more Gnd and 5V Port which i use for the Single NeoPixel which goes into the Bommel. 
 
-![Soldering images](/i1mages/PXL_20201207_155825910.jpg)
+![Wiring images](/images/Screen Shot 2020-12-13 at 11.54.06 PM.png)
+
+
+![Soldering images](/images/PXL_20201207_155825910.jpg)
 
 ![](/images/PXL_20201207_155825910.jpg)
 
