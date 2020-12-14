@@ -50,3 +50,8 @@ The Finished product
 ![Finished](/images/SantaHatA.png)
 
 [![Video](/images/SantaHatBlinking.mp4)]
+
+Next will be a Arduino with bluethooth and a esp8266 version so they can be remote controlled ;)
+Cheers
+
+Markus
