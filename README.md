@@ -35,15 +35,9 @@ I started building the prototype on a bread board 1st and than fit it into the h
 
 Once you got this working you will need to solder the cables onto the Nano. My little boster had only 3 ports Vin,Ground,Vout. I Soldered 2 male cable for the Battery (Vin,Ground) and 2 cables as bridge (Ground,Vout) to the Gnd Vin at the Nano. The Nano has one more Gnd and 5V Port which i use for the Single NeoPixel which goes into the Bommel. 
 
-![Wiring images](/images/Screen Shot 2020-12-13 at 11.54.06 PM.png)
-
+![Wiring images]('/images/Screen Shot 2020-12-13 at 11.54.06 PM.png')
 
 ![Soldering images](/images/PXL_20201207_155825910.jpg)
 
-![](/images/PXL_20201207_155825910.jpg)
-
 Important! Make sure all exposed cable ends and open contacts/ports are covered in tape or heat schrink. 
-
-![](/images/PXL_20201207_163403951.jpg)
-
 
