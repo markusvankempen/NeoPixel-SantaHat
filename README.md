@@ -51,7 +51,10 @@ The Finished product
 
 [![Video](/images/SantaHatBlinking.mp4)]
 
-Next will be a Arduino with bluethooth and a esp8266 version so they can be remote controlled ;)
+Next will be a Arduino with bluethooth and an esp8266 version so they can be remote controlled ;)
+
+esp8266 / Wemos version You Can find an modified McLighing the code in the folder for a Wemos/Esp8266 SantaHat.
+
 Cheers
 
 Markus
