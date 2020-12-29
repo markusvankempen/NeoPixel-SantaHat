@@ -57,7 +57,7 @@ Next will be a Arduino with bluethooth and an esp8266 version so they can be rem
 
 ![WiFi-Wemos-SantaHat](/images/WiFi-Wemos-SantaHat.jpg)
 
-You Can find the modified the [McLighing](https://github.com/toblum/McLighting) version for the SantaHat in the code folder.
+You can find the modified  [McLighing](https://github.com/toblum/McLighting) version for the SantaHat in the code folder.
 
 Cheers
 
