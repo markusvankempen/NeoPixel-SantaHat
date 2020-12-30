@@ -1,4 +1,4 @@
-# Here the ESP8266 Version
+# Here the ESP8266 / Wemos NeoPixel Sanata Version
 
 ![WiFi-Wemos-SantaHat](/images/WiFi-Wemos-SantaHat.jpg)
 
@@ -17,7 +17,7 @@ Here the materials I used:
 - [A little on off switch](https://www.amazon.ca/uxcell%C2%AE-Position-Panel-Vertical-Switch/dp/B01HSKNHKY) (optional
 - [You may also want to add Capacitor , Diode and resistor](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/64467/versions/2/previews/html/NeoPixelExample_Basic.html)
 
-![Wiring](/images/WemosSantaHatWiring.jpg)
+![Wiring](/images/WemosSantaHatWiring.png)
 
 The Software
 
