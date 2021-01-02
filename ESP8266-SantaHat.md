@@ -7,7 +7,7 @@ You can find the modified  [McLighing](https://github.com/toblum/McLighting) ver
 Here the materials I used:
 
 - [Wemos or any esp32](https://www.amazon.ca/IZOKEE-NodeMcu-Internet-Development-Compatible/dp/B076F52NQD)
-- [Battery Charger]{https://solarbotics.com/product/29278/}
+- [Battery Charger](https://solarbotics.com/product/29278/) 
 - [NeoPixel Strip](https://www.amazon.ca/CHINLY-Individually-Addressable-Waterproof-waterproof/dp/B01LSF4QDM) - Use some water proofed once
 - [Cables](https://www.amazon.ca/Elegoo-120pcs-Multicolored-Breadboard-arduino/dp/B01EV70C78/)
 - [Battery 500mAh](https://www.amazon.ca/Fytoo-500mAh-Battery-battery-Charger/dp/B0794ZPVSX/)
