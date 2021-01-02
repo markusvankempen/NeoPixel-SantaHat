@@ -1,4 +1,4 @@
-# Blinking Santa Hat with Arduino and NeoPixels
+# Blinking Santa Hat with Arduino/Esp8266 and NeoPixels
 
 How to use Arduino (Nano etc) and NeoPixels to build a colorful blinking SantaHat with an extra NeoPixel in the Pom-Pom aka Bommel ;)
 
