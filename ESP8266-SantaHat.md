@@ -19,9 +19,13 @@ Here the materials I used:
 
 ![Wiring](/images/WemosSantaHatWiring.png)
 
-The Software
+
+[Demo Video on YT](https://youtu.be/zCQa0kE7Gjg)
 
 
-Cheers
+The Software is aviable in the github here:
+
+
+Enjoy & Cheers
 
 Markus
