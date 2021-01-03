@@ -52,7 +52,9 @@ The Finished product
 
 [![Video](/images/SantaHatBlinking.mp4)]
 
-Code is a aviailable in the code folder in this github.
+Code is available in the code folder of this github.
+
+Check also [video folder](https://github.com/markusvankempen/NeoPixel-SantaHat/blob/main/videos/youtube.md) for detailed description/demos.
 
 # The ESP8266 wifi Version is available here
 [SantaWifi Hat](https://github.com/markusvankempen/NeoPixel-SantaHat/blob/main/ESP8266-SantaHat.md)
