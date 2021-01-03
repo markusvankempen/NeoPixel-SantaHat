@@ -1,11 +1,11 @@
 // 
 // Santa Hat with NeoPixel and one extra NeoPixel in the Bommel
-// The code uses comon neopixel function. We using Digital PIN 12 
-// for the neopixel strip and PIN 11 for the Bommel
+// The code uses comon neopixel function. We using Digital PIN D12 
+// for the neopixel strip and PIN D8 for the Bommel
 // 
 // markus van kempen - markus@vankempen.org
 //
-#define VERSION "2020-12-06-1433"
+#define VERSION "2021-01-03-1521"
 
 // NEOPIXEL BEST PRACTICES for most reliable operation:
 // - Add 1000 uF CAPACITOR between NeoPixel strip's + and - connections.
@@ -25,14 +25,14 @@
 // Which pin on the Arduino is connected to the NeoPixels?
 // On a Trinket or Gemma we suggest changing this to 1:
 #define NEOPIXEL_RING_PIN    12
-#define BOMMEL_PIN    11
+#define BOMMEL_PIN      8
 
 // How many NeoPixels are attached to the Arduino?
-#define NEOPIXEL_RING_COUNT 36
+#define NEOPIXEL_RING_COUNT 50
 
 // Declare our NeoPixel strip object:
 Adafruit_NeoPixel strip(NEOPIXEL_RING_COUNT, NEOPIXEL_RING_PIN, NEO_GRB + NEO_KHZ800); // Ring
-Adafruit_NeoPixel singel(1, BOMMEL_PIN, NEO_GRB + NEO_KHZ800); // Bommel 
+Adafruit_NeoPixel singel(2, BOMMEL_PIN, NEO_RGB + NEO_KHZ800); // Bommel 
 
 
 // Argument 1 = Number of pixels in NeoPixel strip
@@ -49,7 +49,7 @@ Adafruit_NeoPixel singel(1, BOMMEL_PIN, NEO_GRB + NEO_KHZ800); // Bommel
 
 void setup() {
   strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
-  strip.setBrightness(30); // Set BRIGHTNESS to about 1/5 (max = 255)
+  strip.setBrightness(20); // Set BRIGHTNESS to about 1/5 (max = 255)
   strip.show();            // Turn OFF all pixels ASAP
   // initialize digital pin LED_BUILTIN as an output.
 
@@ -69,31 +69,48 @@ void setup() {
 //  hc06.println("HC05 HELLO : ");
 
   
-  Serial.println("Bommel-Red1");
+  Serial.println("Bommel-Red");
   singel.setPixelColor(0, singel.Color(0, 250, 0));
-  singel.show();            // Turn OFF all pixels ASAP
+  singel.show();         
+  delay(1000); 
+  /*
+   * 
   delay(1000); 
   Serial.println("Bommel-Green");
   singel.setPixelColor(0, singel.Color(250, 0, 0));
   singel.show();            // Turn OFF all pixels ASAP
   delay(1000); 
+   Serial.println("rainbowbommel");
+    rainbowbommel(10);
+   delay(1000); 
+    
+*/
 }
 
 
 // loop() function -- runs repeatedly as long as board is on ---------------
 int counter=0;
 void loop() {
+    Serial.println("LOOP-Start");
+
+    Serial.println("theaterChase-White");
+     theaterChase(strip.Color(127,   0,   0), 30); // Red, half brightness
 
   
+ // Serial.println("rainbowbommel");
+ // rainbowbommel(10);
+  Serial.println("rainbow1");
+  rainbow(10);             // Flowing rainbow cycle along the whole strip
+      
   // Light up bommel
   //digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   Serial.println("Bommel-Red");
   singel.setPixelColor(0, singel.Color(250, 0, 0));
   singel.show();
-
+  
   // Fill along the length of the strip in various colors...
   Serial.println("colorWipe-Red");
-  colorWipe(strip.Color(255,   0,   0), 250); // Red
+  colorWipe(strip.Color(255,   0,   0), 50); // Red
   //digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
 
   Serial.println("Bommel-Green");
@@ -101,21 +118,21 @@ void loop() {
   singel.show();
 
   Serial.println("colorWipe-Green-start");
-  colorWipe(strip.Color(  0, 255,   0), 250); // Green
+  colorWipe(strip.Color(  0, 255,   0), 50); // Green
   // digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
 
   Serial.println("theaterChaseRainbow");
   theaterChaseRainbow(50); // Rainbow-enhanced theaterChase variant
 
-  singel.setPixelColor(0, singel.Color(0, 0, 250));
+  singel.setPixelColor(0, singel.Color(0, 0, 50));
   singel.show();
   
   Serial.println("colorWipe-Blue");
-  colorWipe(strip.Color(  0,   0, 255), 250); // Blue
+  colorWipe(strip.Color(  0,   0, 255), 50); // Blue
   //digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   // Serial.println("colorWipe-White");
   singel.setPixelColor(0, singel.Color(250, 250, 250));
-
+ singel.show();
   // colorWipe(strip.Color(255,   255,   255),255); // Red
   // Do a theater marquee effect in various colors...
   // theaterChase(strip.Color(127, 127, 127), 255); // White, half brightness
@@ -124,12 +141,17 @@ void loop() {
   // theaterChase(strip.Color(127, 127, 127), 255); // White, half brightness
   theaterChase(strip.Color(127,   0,   0), 50); // Red, half brightness
   singel.setPixelColor(0, singel.Color(0, 250, 250));
+   singel.show();
   // theaterChase(strip.Color(  0,   0, 127), 50); // Blue, half brightness
-  Serial.println("rainbow");
+  Serial.println("rainbow2");
+  rainbow(10);             // Flowing rainbow cycle along the whole strip
+
+    Serial.println("rainbow3");
   rainbow(10);             // Flowing rainbow cycle along the whole strip
   counter++;
   Serial.print("loop counter");
   Serial.println(counter);
+  Serial.println("LOOP -END");
 }
 
 
@@ -185,6 +207,29 @@ void rainbow(int wait) {
       strip.setPixelColor(i, strip.gamma32(strip.ColorHSV(pixelHue)));
     }
     strip.show(); // Update strip with new contents
+    delay(wait);  // Pause for a moment
+  }
+}
+// Rainbow cycle along whole strip. Pass delay time (in ms) between frames.
+void rainbowbommel(int wait) {
+  // Hue of first pixel runs 5 complete loops through the color wheel.
+  // Color wheel has a range of 65536 but it's OK if we roll over, so
+  // just count from 0 to 5*65536. Adding 256 to firstPixelHue each time
+  // means we'll make 5*65536/256 = 1280 passes through this outer loop:
+  for (long firstPixelHue = 0; firstPixelHue < 5 * 65536; firstPixelHue += 256) {
+    for (int i = 0; i < singel.numPixels(); i++) { // For each pixel in strip...
+      // Offset pixel hue by an amount to make one full revolution of the
+      // color wheel (range of 65536) along the length of the strip
+      // (strip.numPixels() steps):
+      int pixelHue = firstPixelHue + (i * 65536L / singel.numPixels());
+      // strip.ColorHSV() can take 1 or 3 arguments: a hue (0 to 65535) or
+      // optionally add saturation and value (brightness) (each 0 to 255).
+      // Here we're using just the single-argument hue variant. The result
+      // is passed through strip.gamma32() to provide 'truer' colors
+      // before assigning to each pixel:
+      singel.setPixelColor(i, singel.gamma32(singel.ColorHSV(pixelHue)));
+    }
+    singel.show(); // Update strip with new contents
     delay(wait);  // Pause for a moment
   }
 }
