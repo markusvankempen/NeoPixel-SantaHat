@@ -23,7 +23,7 @@ Here are the materials is used.
 - [Christmas Hat](https://www.amazon.ca/Confortable-Velvet-Christmas-Favors-Adults/dp/B07G44K67L)
 - [A little on off switch] optional
 - [You may also want to add Capacitor , Diode and resistor]
-(https://www.mathworks.com/matlabcentral/mlc downloads/downloads/submissions/64467/versions/2/previews/html/NeoPixelExample_Basic.html) to be proper
+(https://www.mathworks.com/matlabcentral/mlcdownloads/downloads/submissions/64467/versions/2/previews/html/NeoPixelExample_Basic.html) to be proper
 
 Of course you will need some soldering iron, cables and tape  etc.
 
