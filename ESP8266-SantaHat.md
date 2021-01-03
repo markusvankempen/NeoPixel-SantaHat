@@ -23,7 +23,9 @@ Here the materials I used:
 [Demo Video on YT](https://youtu.be/zCQa0kE7Gjg)
 
 
-The Software is aviable in the github here:
+The Code is aviable in this github as a zip file for Arduino IDE :
+[Code](https://github.com/markusvankempen/NeoPixel-SantaHat/tree/main/code)
+[More details here at the org source](https://github.com/toblum/McLighting)
 
 
 Enjoy & Cheers
